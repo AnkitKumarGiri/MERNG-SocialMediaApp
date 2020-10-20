@@ -1,5 +1,7 @@
 const { model, Schema } = require('mongoose');
 
+// created an item on the mongoose database of the same schema
+
 const postSchema = new Schema({
     body: String,
     username: String,
